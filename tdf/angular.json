@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "tdf": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tdf"
+    }
+  },
+  "defaultProject": "tdf",
+  "cli": {
+    "analytics": "cac79e80-0d2f-41ea-a4eb-bef0c32e9951"
+  }
 }
