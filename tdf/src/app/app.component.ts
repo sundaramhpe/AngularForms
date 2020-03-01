@@ -9,5 +9,5 @@ import { from } from 'rxjs';
 })
 export class AppComponent {
   topics =['Angular','React','Vue'];
-  userModel = new User("Sundaram ","sun@com",555555,"Angular")
+  userModel = new User("","sun@com",555555,"Angular")
 }
