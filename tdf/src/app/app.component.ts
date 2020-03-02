@@ -10,4 +10,8 @@ import { from } from 'rxjs';
 export class AppComponent {
   topics =['Angular','React','Vue'];
   userModel = new User("","sun@com",555555,"Angular")
+
+  onSubmit(){
+    console.log(this.userModel);
+  }
 }
